@@ -57,5 +57,5 @@ artifacts:
 # [END cloudbuild_go_logs_yaml]
 # Store images in Google Artifact Registry
 images:
-  - us-central1-docker.pkg.dev/$PROJECT_ID$REPO_NAME//datadogniro:01
+  - us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/datadogniro:01
 # [END cloudbuild_go_yaml]
