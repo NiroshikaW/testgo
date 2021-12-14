@@ -1,7 +1,3 @@
-#module github.com/GoogleCloudPlatform/cloud-build-samples/golang
-
-#go 1.15
-
 module write_go_csv_in_gcp
 
 go 1.14
