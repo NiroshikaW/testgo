@@ -49,7 +49,7 @@ steps:
 
 # [START cloudbuild_go_logs_yaml]
 # Save test logs to Google Cloud Storage
-BUCKET_NAME: 'artifacts_write-go-csv-in-gcp-334404_niro'
+#BUCKET_NAME: 'artifacts_write-go-csv-in-gcp-334404_niro'
 artifacts:
   objects:
     location: gs://$BUCKET_NAME/
